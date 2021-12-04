@@ -26,23 +26,33 @@
 
   <div class="min-vh-100 d-flex flex-column">
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <button
+        type="button"
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#navbarPrincipal"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
       <a
         href="#"
         class="navbar-brand"
       >
         Logo
       </a>
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a href="#" class="nav-link">Item 1</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">Item 2</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">Item 3</a>
-        </li>
-      </ul>
+      <div id="navbarPrincipal" class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a href="#" class="nav-link">Item 1</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Item 2</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Item 3</a>
+          </li>
+        </ul>
+      </div>
     </nav>
     <div class="d-flex flex-column flex-md-row flex-grow-1">
       <main class="flex-grow-1">
