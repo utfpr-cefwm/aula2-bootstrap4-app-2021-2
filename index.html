@@ -25,11 +25,35 @@
 <body>
 
   <div class="border border-danger container">
-    Container comum
+    Container comum (igual ao <code>.container-sm</code>).
   </div>
 
-  <div class="border border-danger">
-    Div comum
+  <div class="border border-danger container-sm">
+    100% até atingir <code>sm</code> (≥576px), quando trava em 540px.
+    <br />
+    Para telas <code>md</code> e maiores, igual <code>.container-md</code>
+  </div>
+
+  <div class="border border-danger container-md">
+    100% até atingir <code>md</code> (≥768px), quando trava em 720px.
+    <br />
+    Para telas <code>lg</code> e maiores, igual <code>.container-lg</code>
+  </div>
+
+  <div class="border border-danger container-lg">
+    100% até atingir <code>lg</code> (≥992px), quando trava em 960px.
+    <br />
+    Para telas <code>xl</code> e maiores, igual <code>.container-xl</code>
+  </div>
+
+  <div class="border border-danger container-xl">
+    100% até atingir <code>xl</code> (≥1200px), quando trava em 1140px.
+    <br />
+    Após isso, não aumenta mais de tamanho de container para telas maiores.
+  </div>
+
+  <div class="border border-danger container-fluid">
+    Container fluido (100% de largura para qualquer tela).
   </div>
 
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
