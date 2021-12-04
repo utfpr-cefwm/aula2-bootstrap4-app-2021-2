@@ -2,7 +2,12 @@
   "name": "aula2-bootstrap4-app-2021-2",
   "version": "0.0.1",
   "description": "Aula 2: Bootstrap 4 e JavaScript",
-  "keywords": ["bootstrap4", "bootstrap", "javascript", "tbs4"],
+  "keywords": [
+    "bootstrap4",
+    "bootstrap",
+    "javascript",
+    "tbs4"
+  ],
   "license": "",
   "author": "Rui Pimentel Leite",
   "scripts": {
@@ -13,5 +18,8 @@
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
   }
 }
