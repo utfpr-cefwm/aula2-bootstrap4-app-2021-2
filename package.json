@@ -1,13 +1,13 @@
 {
-  "name": " ",
+  "name": "aula2-bootstrap4-app-2021-2",
   "version": "0.0.1",
-  "description": "",
-  "keywords": "",
+  "description": "Aula 2: Bootstrap 4 e JavaScript",
+  "keywords": ["bootstrap4", "bootstrap", "javascript", "tbs4"],
   "license": "",
-  "author": "",
+  "author": "Rui Pimentel Leite",
   "scripts": {
     "build": "parcel build index.html",
-    "dev": "parcel index.html --open",
+    "dev": "parcel index.html",
     "start": "npm run build && npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
