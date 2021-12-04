@@ -20,6 +20,6 @@
     "parcel-bundler": "^1.12.4"
   },
   "dependencies": {
-    "bootstrap": "^5.1.3"
+    "bootstrap": "^4.6.1"
   }
 }
