@@ -44,7 +44,7 @@
       <div id="navbarPrincipal" class="collapse navbar-collapse">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a href="#" class="nav-link">Item 1</a>
+            <a href="#" class="nav-link">Seletor de cor</a>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link">Item 2</a>
@@ -56,6 +56,34 @@
       </div>
     </nav>
     <main class="flex-grow-1 mt-3">
+      <div class="jumbotron">
+        <div class="container">
+          <h1 class="display-4">
+            Seletor de cor
+          </h1>
+          <p class="lead">
+            Informe o nome ou código da cor no campo abaixo para obter um preview.
+          </p>
+        </div>
+      </div>
+      <form class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <input
+              autofocus
+              type="text"
+              class="form-control text-center"
+              placeholder="Nome ou código da cor..."
+            />
+          </div>
+          <div class="col-sm-6">
+            <button type="submit" class="btn btn-primary form-control">
+              <i class=" mr-1 bi bi-eye-fill"></i>
+              Visualizar
+            </button>
+          </div>
+        </div>
+      </form>
     </main>
     <footer class="">
       Copyright &copy; 2021 Rui Pimentel Leite
