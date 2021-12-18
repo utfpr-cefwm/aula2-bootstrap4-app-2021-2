@@ -43,7 +43,7 @@
       </a>
       <div id="navbarPrincipal" class="collapse navbar-collapse">
         <ul class="navbar-nav">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a href="index.html" class="nav-link">Seletor de cor</a>
           </li>
           <li class="nav-item">
@@ -52,7 +52,7 @@
           <li class="nav-item">
             <a href="cronometro.html" class="nav-link">Cronômetro</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a href="to-do-list.html" class="nav-link">To Do List</a>
           </li>
         </ul>
@@ -62,31 +62,35 @@
       <div class="jumbotron">
         <div class="container">
           <h1 class="display-4">
-            Seletor de cor
+            To Do List
           </h1>
           <p class="lead">
-            Informe o nome ou código da cor no campo abaixo para obter um preview.
+            Adicione ou remova itens em sua lista de tarefas.
           </p>
         </div>
       </div>
-      <form class="container">
+      <div class="container">
         <div class="row">
-          <div class="col-sm-6">
-            <input
-              autofocus
-              type="text"
-              class="form-control text-center"
-              placeholder="Nome ou código da cor..."
-            />
-          </div>
-          <div class="col-sm-6">
-            <button id="btnSubmit" type="submit" class="btn btn-primary form-control">
-              <i class=" mr-1 bi bi-eye-fill"></i>
-              Visualizar
+          <div class="col">
+            <button
+              type="button"
+              class="btn btn-block btn-success"
+            >
+              <i class="bi bi-plus-circle-fill"></i>
+              Adicionar
             </button>
           </div>
         </div>
-      </form>
+        <div class="row mt-2">
+          <div class="col d-flex">
+            <input type="checkbox" />
+            <input type="text" class="flex-grow-1 ml-2" />
+            <button type="button" class="btn btn-danger">
+              <i class="bi bi-trash-fill"></i>
+            </button>
+          </div>
+        </div>
+      </div>
     </main>
     <footer class="">
       Copyright &copy; 2021 Rui Pimentel Leite
@@ -99,7 +103,7 @@
   <script src="node_modules/popper.js/dist/popper.js"></script>
   <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
   <script src="js/main.js"></script>
-  <script src="js/seletor-cor.js"></script>
+  <script src="js/to-do-list.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
